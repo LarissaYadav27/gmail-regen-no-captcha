@@ -1,0 +1,23 @@
+{
+  "module": "gmail-regen-no-captcha",
+  "version": "0.1.0",
+  "runtime": {
+    "threads": 4,
+    "verbose": false,
+    "hot_reload": true
+  },
+  "modules": {
+    "regen": {
+      "enabled": true
+    },
+    "captcha": {
+      "enabled": true
+    },
+    "fingerprint": {
+      "enabled": true
+    },
+    "cli": {
+      "enabled": true
+    }
+  }
+}
